@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+}
+.hangman {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: black;
+  color: white;
+}
+
+.main {
+  display: flex;
+  width: 75%;
+  height: auto;
+  gap: 2rem;
+}
+.both {
+  padding-left: 10rem;
+  margin: 0 auto;
+  width: auto;
+  display: flex;
+  gap: 2rem;
+}
+.card {
+  padding: 2rem;
+  border: 10px dashed rgb(255, 0, 0);
+  background-color: black;
+  color: white;
+}
+.card-body {
+  padding: 0 5rem;
+}
+.card img {
+  padding: 0 5rem;
+}
+#meme {
+  width: 50%;
+}
+#guess {
+  padding: 2rem;
+  width: 50%;
+  height: auto;
+}
+@media (max-width: 992px) {
+  .card {
+    border: 10px dashed rgb(255, 0, 0);
+    background-color: black;
+    color: white;
+  }
+  .card-body {
+    padding: 0;
+  }
+  .both {
+    margin: 0 auto;
+    display: block;
+    gap: 4rem;
+  }
+  .main {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  .hangman {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  #meme {
+    padding: 0;
+    width: 100%;
+  }
+  #guess {
+    width: 100%;
+  }
+}
